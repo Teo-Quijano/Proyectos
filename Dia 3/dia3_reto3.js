@@ -1,7 +1,11 @@
-let celebracion = "DJ"
 
-restaurante = menu == "2 Platos" ? console.log("Restaurante B") : menu == "3 Platos" ? console.log("Restaurante A") : 
-barra == "Barra Libre 1 hora" ? console.log("Restaurante B") : barra == "Barra Libre 2 horas" ? console.log("Restaurante A"):
-adicional == "Coctel" ? console.log("Restaurante B") : adicional == "DJ" ? console.log("Restaurante A"):
+let a = 1+1==2? 2 + 2 ==5? "valor1" : "valor2" : "valor3"
 
-console.log(restaurante)
+console.log(a)
+
+let dias= ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"];
+
+for (let i=0;i<dias.length;i++) {    
+
+    console.log(dias[i])
+}
