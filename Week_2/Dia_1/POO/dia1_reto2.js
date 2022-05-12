@@ -11,7 +11,7 @@ class Person
         this.altura = altura;
         this.peso = peso;
         this.edad = 7
-        this.dob = "2015-02-02"
+        this.dob = new Date (2015, 2, 2);
         this.pelo = "Negro"
         this.ojos = "Castaños"
         this.idioma = "Español"
@@ -35,7 +35,7 @@ class Person
 
 }
 
-let usuario1 = new Person(80, 178);
+let usuario1 = new Person(80, 1.78);
 console.log(usuario1);
 let IMC = usuario1.calcularImc();
 console.log(IMC);
@@ -43,13 +43,13 @@ let fechaActual = new Date();
 console.log(fechaActual);
 usuario1.printHobbies();
 let day = fechaActual.getDate();
-console.log(day);
 let month = fechaActual.getMonth();
-console.log(month+1);
 let year = fechaActual.getFullYear();
-console.log(year);
-fechaActual = day+"-"+month+"-"+year
+fechaActual = year+"-"+(month+1)+"-"+day
 console.log(fechaActual);
+let edadEs = fechaActual - Person.dob;
+console.log(edadEs);
+
 
 
 
