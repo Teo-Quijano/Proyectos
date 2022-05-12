@@ -1,3 +1,7 @@
+console.log("Hola que tal");
+
+
+
 class Person
 { 
     constructor(peso, altura)
@@ -7,7 +11,7 @@ class Person
         this.altura = altura;
         this.peso = peso;
         this.edad = 7
-        this.dob = '2015-02-02'
+        this.dob = "2015-02-02"
         this.pelo = "Negro"
         this.ojos = "Castaños"
         this.idioma = "Español"
@@ -20,7 +24,7 @@ class Person
         
         calcularEdad()
         {
-            return (date.getDate()- this.dob)
+            return (date.getDate() - this.dob)
             
         }
 
@@ -37,8 +41,17 @@ let IMC = usuario1.calcularImc();
 console.log(IMC);
 let fechaActual = new Date();
 console.log(fechaActual);
-/// console.log(calcularEdad);
 usuario1.printHobbies();
+let day = fechaActual.getDate();
+console.log(day);
+let month = fechaActual.getMonth();
+console.log(month+1);
+let year = fechaActual.getFullYear();
+console.log(year);
+fechaActual = day+"-"+month+"-"+year
+console.log(fechaActual);
+
+
 
 
 
