@@ -1,3 +1,5 @@
+// Dia 2 Reto 1
+
 let cadena = "Estaremos ampliando conocimientos en los proximos dias";
 let numero = 11;
 let booleana = false;
