@@ -1,4 +1,6 @@
-let ingrediente = "cebolla";
+// Dia 3 Reto 2
+
+let ingrediente = "carne";
 
 switch (ingrediente) {
     case 'pollo':

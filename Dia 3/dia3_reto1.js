@@ -1,12 +1,12 @@
-let pasoSemaforo = "rojo sin trafico";
+// Dia 3 Reto 1
 
-if (pasoSemaforo == "verde") {
-    accion = "Cruzar la calle";
-}
-else if (pasoSemaforo == "sin trafico") {
-    accion = "Cruzar la calle";
-}
-else {accion = "No cruzar la calle";
+let luzSemaforo = "rojo";
+let trafico = "sin trafico";
+
+if (luzSemaforo != "verde" || trafico != "sin trafico") {
+  accion = "No cruzar la calle";
+} else {
+  accion = "Cruzar la calle";
 }
 
-console.log(accion)
+console.log(accion);
