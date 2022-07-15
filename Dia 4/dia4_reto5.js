@@ -59,3 +59,4 @@ for (i = 0; i < personas.length; i++);
   );
   console.log(personas.nombre);
 }
+
