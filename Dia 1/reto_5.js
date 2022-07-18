@@ -1,3 +1,5 @@
+// Dia 1 Reto 5
+
 let textocurso = String("Esta semana comenzo el Bootcamp en Codenotch");
 
 console.log(textocurso.length);
