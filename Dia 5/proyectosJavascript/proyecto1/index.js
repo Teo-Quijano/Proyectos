@@ -24,4 +24,4 @@ function division(a, b=0){
     console.log("El resultado es: " + resultadoDivision)
 }
 
-module.exports = {suma, resta, producto, division};
+module.exports = {suma, resta, producto, division}

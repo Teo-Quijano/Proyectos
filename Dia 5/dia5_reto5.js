@@ -1,6 +1,7 @@
 // Dia 5 Reto5
 
 function printValor(v) {
+ 
   if (typeof v !== "undefined" && v.length > 0) {
   } else {
     console.log("No se encuentran datos");
