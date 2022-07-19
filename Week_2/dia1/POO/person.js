@@ -1,17 +1,11 @@
 // Exportar Modulo
 
 class Person {
-  constructor(peso, altura) {
-    this.nombre = "Emilio";
-    this.apellido = "Quijano";
-    this.altura = altura;
-    this.peso = peso;
-    this.edad = 7;
-    this.dob = 2015;
-    this.pelo = "Negro";
-    this.ojos = "Castaños";
-    this.idioma = "Español";
-    this.hobbies = ["Jugar", "Patinar", "Leer", "Nadar", "Pintar"];
+  constructor(nombre, apellido, edad, hobbies) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.edad = edad;
+    this.hobbies = hobbies
   }
 
 getDatosPerson(){
@@ -19,4 +13,4 @@ getDatosPerson(){
 }
 }
 
-module.exports.Person = Person; 
+module.exports = Person
