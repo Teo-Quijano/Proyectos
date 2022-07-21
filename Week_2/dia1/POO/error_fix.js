@@ -3,19 +3,6 @@
 let modulo = require("./contacts");
 
 
-class Contacts {
-    constructor(){
-        this.persons = [usuario1, usuario2, usuario3];
-    }
-
-    printPersons(){
-        for (let i = 0; i < this.persons.length; i++) {
-            console.log(this.persons[i]) 
-        }
-    }
-}
-
-
 class Person {
     constructor(nombre, apellido, telefono) {
       this.nombre = nombre;
@@ -34,7 +21,4 @@ class Person {
 
 
   console.log(pruebaContacts)
-
-
-
 

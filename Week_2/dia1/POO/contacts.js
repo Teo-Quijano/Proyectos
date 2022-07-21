@@ -5,8 +5,11 @@ class Contacts {
       this.contacts = [Person, Person, Person];
     }
 
-    mostrarAgenda() {
-        console.log(this.contacts);
-      }}
+      printPersons(){
+          for (let i = 0; i < this.contacts.length; i++) {
+              console.log(this.contacts[i]) 
+          }
+      }
+  }
 
     module.exports = Contacts;
