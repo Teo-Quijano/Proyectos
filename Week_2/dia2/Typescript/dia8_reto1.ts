@@ -44,3 +44,6 @@ class Person {
     console.log(persona1.getAddress());
     console.log(persona1.setAddress("Punta del Hidalgo"));
     console.log(persona1.getAddress());
+
+   export {Person}
+
