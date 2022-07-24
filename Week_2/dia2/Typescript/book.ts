@@ -7,6 +7,7 @@ class Book {
     private isbn: string;
     private author: string;
     private editorial: string;
+    static author: string;
     constructor(title:string, nPages:number, isbn:string, author:string, editorial:string){
 
       this.title = title;

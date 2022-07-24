@@ -32,5 +32,5 @@ class Library {
 
 
 let book1 = new Book("El Principito", 235, "2344433-BC23333", "Antoine Saint-Exupery", "Planeta")
-let book2 = new Book("El Principito", 235, "2344433-BC23333", "Antoine Saint-Exupery", "Planeta")
-let book3 = new Book("El Principito", 235, "2344433-BC23333", "Antoine Saint-Exupery", "Planeta")
+let book2 = new Book("Juego de Tronos", 645, "23235235-BC232345", "George R.R.", "Castellana")
+let book3 = new Book("El Diario de Greg", 123, "23435636-BC2323573", "Jeff Kinney", "Molino")
