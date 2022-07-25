@@ -1,4 +1,5 @@
 // Dia 8 Reto 1
+
 var Person = /** @class */ (function () {
     function Person(name, age, address) {
         this.name = name;
@@ -21,6 +22,7 @@ var Person = /** @class */ (function () {
     };
     return Person;
 }());
+
 var persona1 = new Person("Teo", 49, "Finca España");
 console.log(persona1.printName());
 console.log(persona1.yearOfBirth());
