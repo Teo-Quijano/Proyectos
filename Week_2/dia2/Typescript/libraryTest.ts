@@ -2,38 +2,38 @@ import { Library } from "./library";
 import { Book } from "./book";
 
 let myBook = new Book(
-  "Don Quijote de la Mancha",
-  1345,
-  "8468025380",
-  "Miguel de Cervantes",
-  "Santillana"
-);
-
-let myBook1 = new Book(
-  "Sinsajo",
-  422,
-  "978-987-609-244-9",
-  "Collins, Suzanne",
+  "El Principito",
+  235,
+  "473838283933",
+  "Antoine de Saint-Exupery",
   "Molino"
 );
 
+let myBook1 = new Book(
+  "Juego de Tronos",
+  822,
+  "312375298392",
+  "George R.R. Martin",
+  "Planeta"
+);
+
 let myBook2 = new Book(
-  "La leyenda de Sleepy Hollow",
+  "El Diario de Greg",
   73,
-  "978-84-9824-686-5",
-  "Washington Irving",
-  "Editorial Alba"
+  "523832845728",
+  "Jeff Kinney",
+  "Anaya"
 );
 
 let mybooks = [myBook, myBook1, myBook2];
 
-let miLibrary = new Library(mybooks, "Sin Calle", "No tiene manager");
+let miLibrary = new Library(mybooks, "Punta del Hidalgo", "Teo Quijano");
 
-miLibrary.setaddress("Carrer de Mariana Pineda, 93, 95");
+miLibrary.setaddress("Calle Tacoronte 10, 82, 75");
 console.log(miLibrary.getaddress());
 
-miLibrary.setmanager("Jacobo Smith");
+miLibrary.setmanager("Emilio Quijano");
 console.log(miLibrary.getmanager());
 
 console.log(miLibrary.getNumberOfBooks());
-console.log(miLibrary.findByAuthor("Adrian"));
+console.log(miLibrary.findByAuthor("Jeff"));
